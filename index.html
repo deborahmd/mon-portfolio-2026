@@ -12,11 +12,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+<header>
         <div>
             <a href="">Mon portfolio</a>
         </div>
-        <nav>
+    <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="projet.html">Projet</a></li>
@@ -26,49 +26,47 @@
             </ul>
         </nav>
     </header>
-   <main>
-       <section>
-        <div>
-            <h1>Bonjour je suis Deborah</h1
+
+    <section class="hero">
+            <h2>Bonjour je suis Deborah</h2>
             <p> Etudiante en L2 et passionnée par le web</p>
-            <a>href="">voir mes projets</a>
-        </div>
-        <div>
-            <image src="image/Deborah.jpg"alt="Deborah information" width="300">
-        </div>
-       </section>
-       <section>
-        <h2>A propos de moi</h2>
-        <p>
-            Bonjor je m'appelle Deborah Mariabo,je suis étudiante dynamique et motive en informatique à UDBL.
+            <button>voir mes projets</button>
+    </section>
+    <section> class="about">
+            <h2>A propos de moi</h2> 
+            <p>je suis une personne rigoureuse,créative et j'aime travailler en equipe pour
+            ateindre des objectifs commun.mon objectif est de contribuer à des projet 
+            innovants,trouver un stage et maitriser le Framework Larvel.  
+            </p>
+            <p>  Bonjor je m'appelle Deborah Mariabo,je suis étudiante dynamique et motive en informatique à UDBL.
             Passionner par le devéloppement web,m'intelligence artificiel et le desing graphique.
             je suis constament à la recherche de la meilleure connaissance d'apprentissageet defis stimulants. 
+           Au cours de mes études,j'ai développée des solide compétences en programmation.
         </p>
-        <p>
-            Au cours de mes études,j'ai développée des solide compétences en programmation.
-            je suis une personne rigoureuse,créative et j'aime travailler en equipe pour
-            ateindre des objectifs commun.mon objectif est de contribuer à des projet 
-            innovants,trouver un stage et maitriser le Framework Larvel.
-        </p>
+    </section>
+            <img src="image/Deborah.jpg"alt="Deborah information" width="300">
+        </div>
        </section>
+       <section class="Skills">
         <h2>Mes compétences</h2>
-            <table>
+        <Ul>
                 <thead>
                     <tr>
-                        <border>
                         <th>CATEGORIE</th>
                         <th>COMPETENCES</th>
                         <th>NIVEAU</th>
                     </tr>
+        </Ul>
                 </thead>
                      <tbody>
                      <tr>
                         <td>programmation</td>
-                        <td>HTML,CSS,Javascript,Python</td>
-                        <td>Avance</td>
+                        <td>HTML,CSS,JavaScript,Python</td>
+                        <td>Avancé</td>
                      </tr>
-                     <tr>
-                        <td>desing</td>
+                     </tbody>
+            </table>        
+                        <td>design</td>
                         <td>Figma,photoshop(Bases)</td>
                         <td>Intermediaire</td>
                      </tr>
@@ -83,7 +81,7 @@
                         <td>Avance</td>
                      </tr>
                      <tr>
-                        <td>soft skills</td>
+                        <td>Soft <Slot></Slot>kills</td>
                         <td>Communication,Resolution de probleme,Autonomie</td>
                         <td>Expert</td>
                      </tr>
