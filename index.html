@@ -1,104 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon portfolio</title>
-    <link rel="stylesheet" href="CSS/style.CSS">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  
+    <title>Mon portfolio</title>
 </head>
+
 <body>
-<header>
+    <header>
+
         <div>
-            <a href="">Mon portfolio</a>
+            <h3><a href="#">Mon portfolio</a></h3>
         </div>
-    <nav>
+
+        <nav>
             <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="projet.html">Projet</a></li>
-                <li><a href="passion.html">Passion</a></li>
-                <li><a href="divertissement.html">Divertissement</a></li>
+                <li><a href="index.html"class="active">Accueil</a></li>
+                <li><a href="projet.html">Projets</a></li>
+                <li><a href="passion.html">passions</a></li>
+                <li><a href="divertissement.html">divertissement</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-    </header>
 
-    <section class="hero">
-            <h2>Bonjour je suis Deborah</h2>
-            <p> Etudiante en L2 et passionnée par le web</p>
-            <button>voir mes projets</button>
-    </section>
-    <section> class="about">
-            <h2>A propos de moi</h2> 
-            <p>je suis une personne rigoureuse,créative et j'aime travailler en equipe pour
-            ateindre des objectifs commun.mon objectif est de contribuer à des projet 
-            innovants,trouver un stage et maitriser le Framework Larvel.  
-            </p>
-            <p>  Bonjor je m'appelle Deborah Mariabo,je suis étudiante dynamique et motive en informatique à UDBL.
-            Passionner par le devéloppement web,m'intelligence artificiel et le desing graphique.
-            je suis constament à la recherche de la meilleure connaissance d'apprentissageet defis stimulants. 
-           Au cours de mes études,j'ai développée des solide compétences en programmation.
-        </p>
-    </section>
-            <img src="image/Deborah.jpg"alt="Deborah information" width="300">
-        </div>
-       </section>
-       <section class="Skills">
-        <h2>Mes compétences</h2>
-        <Ul>
-                <thead>
-                    <tr>
-                        <th>CATEGORIE</th>
-                        <th>COMPETENCES</th>
-                        <th>NIVEAU</th>
-                    </tr>
-        </Ul>
-                </thead>
-                     <tbody>
-                     <tr>
-                        <td>programmation</td>
-                        <td>HTML,CSS,JavaScript,Python</td>
-                        <td>Avancé</td>
-                     </tr>
-                     </tbody>
-            </table>        
-                        <td>design</td>
-                        <td>Figma,photoshop(Bases)</td>
-                        <td>Intermediaire</td>
-                     </tr>
-                     <tr>
-                        <td>Langues</td>
-                        <td>Français(natif),Anglais(fluide)</td>
-                        <td>Avance</td>
-                     </tr>
-                     <tr>
-                        <td>Outils</td>
-                        <td>Git VS Code,suite office</td>
-                        <td>Avance</td>
-                     </tr>
-                     <tr>
-                        <td>Soft <Slot></Slot>kills</td>
-                        <td>Communication,Resolution de probleme,Autonomie</td>
-                        <td>Expert</td>
-                     </tr>
-                     </tbody>
-                </thead> 
-            </table> 
-        </section>       
+    </header>
+    <main>
+        <section class="hero">
+
+            <div>  
+                <h1> Bonjour je suis Deborah</h1>
+                <p> Etudiante en L2 et passionné par web </p>  
+                <a href="projet.html">Voir mes projets</a>
+            </div>
+        
+
+            <div>
+                <img src="images/Photo.jpg" alt="Photo de profil"  width="200" height="250" > 
+            </div>
+        </section>
+
+            <div>
+                <h2> A propos de moi </h2>
+                <p> Bonjor je m'appelle Deborah Mariabo,je suis étudiante dynamique et motive en informatique à UDBL. Passionner par le devéloppement web,m'intelligence artificiel et le desing graphique. je suis constament à la recherche de la meilleure connaissance d'apprentissageet defis stimulants. Au cours de mes études,j'ai développée des solide compétences en programmation.</p>
+                <p>je suis une personne rigoureuse,créative et j'aime travailler en equipe pour ateindre des objectifs commun.mon objectif est de contribuer à des projet innovants,trouver un stage et maitriser le Framework Larvel.</p>
+            </div>
+    
+
+            <div>
+                <h2>Mes compétences</h2>
+                <table border=""> 
+            
+
+                    <thead>
+                        <tr>
+                            <th>CATÉGORIE</th>
+                            <th>COMPÉTENCES</th>
+                            <th>NIVEAU</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <hr>
+                            <td>Programmation</td>
+                            <td>HTML, CSS, JavaScript, Python</td>
+                            <td>Avancé</td>
+                        </tr>
+                        <tr>
+                            <td>Design</td>
+                            <td>Figma, Photoshop (bases)</td>
+                            <td>Intermédiaire</td>
+                        </tr>
+                        <tr>
+                            <td>Langues</td>
+                            <td>Français (natif), Anglais (fluide)</td>
+                            <td>Avancé</td>
+                        </tr>
+                        <tr>
+                            <td>Outils</td>
+                            <td>Git, VS Code, Suite Office</td>
+                            <td>Avancé</td>
+                        </tr>
+                        <tr>
+                            <td>Soft Skills</td>
+                            <td>Communication, Résolution de problèmes, Autonomie</td>
+                            <td>Expert</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+            
+        </section>
     </main>
- <footer>
-       <div>
-            <p>&copy;2026 Deborah.Tout droits reservés</p>
-       </div>
-       <div>
-    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
-    <a href=""><i class="fa-brands fa-github"></i></a>
-       </div>   
-</footer>  
+    
+    <footer>
+        <p>© 2026 Deborah Mariabo. Tous droits réservés.</p>
+        <div>
+            <p>
+                <a href="#"><i class="fa-brands fa-github"></i></a> 
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-linkedin"></i></a>  
+                
+            </p>   
+        </div>     
+    </footer>
 </body>
 </html>
